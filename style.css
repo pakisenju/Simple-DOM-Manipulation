@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.body {
+  background: linear-gradient(#355a92, #212121);
+  background-size: cover;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: none;
+  background-attachment: fixed;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.targetObject {
+  background: #222222;
+  width: 900px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.targetObject > h1 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin: 0px 10px;
+  padding: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.targetObject > p {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0px 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.inputData {
+  background: #222;
+  max-width: 500px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.testInput > input {
+  text-decoration: none;
+  color: #eaeaea;
+  background-color: #222;
+  border: none;
+  font-size: 12px;
+  text-align: center;
+  text-transform: lowercase;
+  padding: 5px;
+  margin: 5px 10px;
+}
+
+.testInput > input:hover {
+  color: #222;
+  background-color: #eaeaea;
+}
+
+.testInput > button {
+  text-decoration: none;
+  color: #eaeaea;
+  background-color: #222;
+  border: none;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 5px 10px;
+}
+
+.testInput > button:hover {
+  color: #222;
+  background-color: #eaeaea;
+}
+
+.keterangan {
+  display: flex;
+  flex-direction: column;
+}
+
+.keterangan > p {
+  text-decoration: none;
+  color: #eaeaea;
+  background-color: none;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.accordion-button-custom {
+  background-color: white !important;
+}
